@@ -17,7 +17,9 @@
   "dependencies": {
     "chainlink": "^0.6.2",
     "chainlink-test-helpers": "^0.6.0-3",
+    "connect": "^3.7.0",
     "openzeppelin-solidity": "^1.12.0",
+    "serve-static": "^1.14.1",
     "web3": "github:ethereum/web3.js"
   },
   "devDependencies": {

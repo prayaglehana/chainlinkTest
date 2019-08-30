@@ -25,4 +25,9 @@ if (typeof window.web3 !== 'undefined') {
             // })
             c=new _web3.eth.Contract(abi, '0x6Ff9A3dc39fB5d857b5Dd97d98e2D0A8eBDB34A5', {from:_web3.eth.defaultAccount})   ;
             console.log(thisAccount);
-        }
+
+
+            c.methods.addmoney(parseInt(Math.round(this.state.eth2inr)),parseInt(Math.round(this.state.addPgy*10000)))
+            .send({from:this.props.thisAccount
+            }).then((err,res)=>console.log('done'));
+          }
