@@ -15,7 +15,7 @@
     "test": "truffle test --network test"
   },
   "dependencies": {
-    "chainlink": "^0.6.2",
+    "chainlink": "^0.8.2",
     "chainlink-test-helpers": "^0.6.0-3",
     "connect": "^3.7.0",
     "openzeppelin-solidity": "^1.12.0",
